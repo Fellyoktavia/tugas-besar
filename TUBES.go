@@ -392,7 +392,7 @@ func menu() {
 			var err error
 			pilihan, err = strconv.Atoi(input)
 			if err != nil {
-				fmt.Println("❗ Pilihan tidak mengandung huruf. Silakan coba lagi")
+				fmt.Println("❗ Pilihan tidak boleh mengandung huruf. Silakan coba lagi")
 				continue
 			}
 			break
