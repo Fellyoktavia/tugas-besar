@@ -353,16 +353,16 @@ func laporan() {
 
 func dataPeminjaman() {
 	daftar = append(daftar,
-		Peminjam{"Andi Prasetyo", 10000000, 12, 0.05, hitungCicilan(10000000, 12, 0.05), "Belum Lunas"},
-		Peminjam{"Budi Santoso", 5000000, 6, 0.05, hitungCicilan(5000000, 6, 0.05), "Belum Lunas"},
-		Peminjam{"Citra Dewi", 7000000, 10, 0.05, hitungCicilan(7000000, 10, 0.05), "Belum Lunas"},
-		Peminjam{"Dewi Kartika", 8000000, 8, 0.05, hitungCicilan(8000000, 8, 0.05), "Belum Lunas"},
-		Peminjam{"Eko Haryanto", 15000000, 24, 0.05, hitungCicilan(15000000, 24, 0.05), "Belum Lunas"},
-		Peminjam{"Fajar Rahman", 6000000, 36, 0.05, hitungCicilan(6000000, 36, 0.05), "Belum Lunas"},
-		Peminjam{"Gina Sari", 9000000, 18, 0.05, hitungCicilan(9000000, 18, 0.05), "Belum Lunas"},
-		Peminjam{"Heri Setiawan", 4000000, 9, 0.05, hitungCicilan(4000000, 9, 0.05), "Belum Lunas"},
-		Peminjam{"Indah Lestari", 11000000, 15, 0.05, hitungCicilan(11000000, 15, 0.05), "Belum Lunas"},
-		Peminjam{"Zaki Ahmad", 20000000, 3, 0.05, hitungCicilan(20000000, 3, 0.05), "Belum Lunas"},
+		Peminjam{"Vito Naryama", 10000000, 12, 0.05, hitungCicilan(10000000, 12, 0.05), "Belum Lunas"},
+		Peminjam{"Agung Ramadhan", 5000000, 6, 0.05, hitungCicilan(5000000, 6, 0.05), "Belum Lunas"},
+		Peminjam{"Fathur Rizal", 7000000, 10, 0.05, hitungCicilan(7000000, 10, 0.05), "Belum Lunas"},
+		Peminjam{"Galang Saputra", 8000000, 8, 0.05, hitungCicilan(8000000, 8, 0.05), "Belum Lunas"},
+		Peminjam{"Omar Nadiv", 15000000, 24, 0.05, hitungCicilan(15000000, 24, 0.05), "Belum Lunas"},
+		Peminjam{"Mario Sebastian", 6000000, 36, 0.05, hitungCicilan(6000000, 36, 0.05), "Belum Lunas"},
+		Peminjam{"Farrel Gaska", 9000000, 18, 0.05, hitungCicilan(9000000, 18, 0.05), "Belum Lunas"},
+		Peminjam{"Fatih Zaki", 4000000, 9, 0.05, hitungCicilan(4000000, 9, 0.05), "Belum Lunas"},
+		Peminjam{"Naufal Ammar", 11000000, 15, 0.05, hitungCicilan(11000000, 15, 0.05), "Belum Lunas"},
+		Peminjam{"Rafi Tribuana", 20000000, 3, 0.05, hitungCicilan(20000000, 3, 0.05), "Belum Lunas"},
 	)
 }
 
@@ -392,7 +392,7 @@ func menu() {
 			var err error
 			pilihan, err = strconv.Atoi(input)
 			if err != nil {
-				fmt.Println("Input tidak valid")
+				fmt.Println("❗ Pilihan tidak mengandung huruf. Silakan coba lagi")
 				continue
 			}
 			break
