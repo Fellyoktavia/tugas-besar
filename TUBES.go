@@ -326,11 +326,6 @@ func tampilkanSemua() {
 }
 
 func laporan() {
-	if len(daftar) == 0 {
-		fmt.Println("⚠️  Tidak ada data untuk ditampilkan.")
-		return
-	}
-
 	fmt.Println("📊 Ringkasan Laporan Peminjaman:")
 	fmt.Printf("%-3s %-20s %-15s %-8s %-10s %-20s %-20s %-20s %-20s\n",
 		"No", "Nama", "Pinjaman", "Tenor", "Bunga", "Cicilan Per Bulan", "Total Bunga", "Total Akhir", "Status")
